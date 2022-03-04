@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: yellow;
+    width: 100%;
+    height: 85px;
+    padding: 12px 0;
+}
+
+.container{
+    margin: 0px auto;
+    width: 90%;
+}
+
+.logo-part{
+    width: 26%;
+    float: left;
+}
+
+div img{
+    height: 60px;
+    width: 100px;
+    background: none;
+}
+
+.title-part{
+    width: 30%;
+    float: left;
+    padding: 0 10px;
+    font-size: 40px;
+    color: darkred;
+    text-shadow: 2px 2px 5px black;
+    margin-top: -16px;
+}
+
+.menu-part{
+    width: 43%;
+    float: left;
+}
+
+.menu-part ul{
+    padding: 16px 0;
+    text-align: end;
+}
+
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu-part a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 26px;
+    color: darkblue;
+    margin: 0 15px;
+}
+
+.title{
+    background-image: url(../img/SyGtVk.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.heading-one{
+    font-size: 150px;
+    color: midnightblue;
+    margin: 0 10px;
+    padding-top: 100px;
+    text-shadow: 1px 1px 5px skyblue;
+    text-transform: uppercase;
+}
+
+.pr{
+    width: 50%;
+    margin: 0 10px;
+    color: aquamarine;
+    font-size: 26px;
+    text-shadow: 1px 1px black;
+}
+
+#body{
+    background-color: orange;
+    height: 1100px;
+}
+
+.title-one{
+    height: 400px;
+}
+
+.heading-two{
+    font-size: 120px;
+    color: aquamarine;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    padding: 100px 0px 20px 0px;
+    text-transform: uppercase;
+}
+
+.pr-two{
+    text-align: center;
+    font-size: 32px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.img{
+    width: 90%;
+    margin-left: 100px;
+}
+
+.img-one, .img-two, .img-three {
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    margin: 0 1.5%;
+    background-color: gray;
+    padding: 10px;
+}
+
+.img img{
+    width: 492px;
+    height: 500px;
+}
+
+.img h2{
+    text-align: center;
+    font-size: 60px;
+    color: aquamarine;
+    text-shadow: 1.5px 1.5px black;
+    text-transform: uppercase;
+}
+
+#body-two{
+    background-color: gray;
+    height: 1100px;
+}
+
+.title-two{
+    height: 400px;
+}
+
+.heading-three{
+    text-align: center;
+    font-size: 120px;
+    padding-top: 100px;
+    color: darkorange;
+    text-shadow: 1.5px 1.5px black;
+    text-transform: uppercase;
+}
+
+.pr-three{
+    text-align: center;
+    font-size: 32px;
+    width: 50%;
+    margin-left: 25%;
+    color: deepskyblue;
+    text-shadow: 1px 1px black;
+}
+
+.catagories{
+    width: 90%;
+    margin-left: 100px;
+}
+
+.cat-one, .cat-two, .cat-three{
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    margin: 0 1.5%;
+    background-color: orangered;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.catagories img{
+    margin: 20px 0 0 125px;
+    width: 250px;
+    height: 250px;
+}
+
+.catagories h2{
+    color: #fff;
+    text-shadow: 1px 1px black;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.catagories p{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.catagories h1{
+    border: none;
+    border-radius: 10px;
+    margin: 25px auto;
+    padding: 15px 0;
+    width: 88%;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+#body-three{
+    width: 100%;
+    height: 2000px;
+    background-color: cornflowerblue;
+}
+
+.container-one{
+    width: 100%;
+    height: 50%;
+}
+
+.img-left{
+    float: left;
+    width: 50%;
+}
+
+.img-left img{
+    width: 100%;
+    height: 1000px;
+}
+
+.text-right{
+    width: 50%;
+    float: left;
+}
+
+.heading-four{
+    padding: 260px 0 20px 0;
+    font-size: 100px;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+}
+
+.text-right p{
+    text-align: center;
+    font-size: 26px;
+    padding: 20px;
+}
+
+.text-right button{
+    display: block;
+    margin: 60px auto;
+    width: 200px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+.container-two{
+    height: 50%;
+}
+
+.container-two{
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+}
+
+.text-left{
+    width: 50%;
+    float: left;
+}
+
+.heading-five{
+    padding: 260px 0 20px 0;
+    font-size: 100px;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+}
+
+.text-left p{
+    text-align: center;
+    font-size: 26px;
+    padding: 20px;
+}
+
+.text-left button{
+    display: block;
+    margin: 60px auto;
+    width: 200px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+.img-right{
+    width: 50%;
+    float: left;
+}
+
+.img-right img{
+    margin: -22px 0 0 0;
+    width: 100%;
+    height: 1000px;
+}
+
+#body-four{
+    background-color: gray;
+    height: 1000px;
+    width: 100%;
+}
+
+.title-three{
+    padding: 10px;
+}
+
+.title-three h1{
+    text-align: center;
+    font-size: 120px;
+    color: yellow;
+    padding: 100px 0 100px 0;
+    text-transform: uppercase;
+}
+
+.title-three p{
+    text-align: center;
+    font-size: 26px;
+    color: yellow;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.desc{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.desc-one, .desc-two, .desc-three{
+    padding: 150px 0 0 100px;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.desc-one h1, .desc-two h1, .desc-three h1{
+    color: yellow;
+    font-size: 80px;
+}
+
+.desc-one h2, .desc-two h2, .desc-three h2 {
+    color: yellow;
+    font-size: 32px;
+}
+
+#body-five{
+    background-image: url(../img/Houses-Under-Snow-720x450.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#body-five h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 250px 0 0 0;
+    width: 75%;
+    margin: 0 auto;
+    color: orange;
+    text-shadow: 1.5px 1.5px black;
+}
+
+#body-five h1{
+    font-size: 120px;
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: aquamarine;
+    text-shadow: 1.5px 1.5px 5px black,
+                 -1.5px -1.5px 5px black;
+    text-transform: uppercase;
+}
+
+#body-six{
+    background-color: aquamarine;
+    height: 600px;
+    width: 100%;
+}
+
+#body-six h1{
+    color: darkblue;
+    text-align: center;
+    font-size: 120px;
+    padding: 60px 0 0 0;
+    text-transform: uppercase;
+}
+
+#body-six h2{
+    width: 75%;
+    margin: 60px auto;
+    font-size: 40px;
+    color: darkblue;
+}
+
+#body-six input{
+    width: 600px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 500px;
+    border: none;
+    outline: none;
+}
+
+#body-six button{
+    width: 300px;
+    background-color: darksalmon;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: -4.75px;
+    border: none;
+}
+
+#footer{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    color: #fff;
+    padding: 1%;
+}
+
+.left{
+    width: 40%;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+
+.left h2{
+    font-size: 50px;
+}
+
+.left p{
+    padding: 30px 0 0 0;
+    font-size: 24px;
+}
+
+.right{
+    width: 58%;
+    float: left;
+}
+
+.about, .services, .other{
+    width: 28%;
+    float: left;
+    margin: 20px 0 0 57px;
+}
+
+.about h2, .services h2, .other h2{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.about p, .services p, .other p{
+    font-size: 24px;
+}
