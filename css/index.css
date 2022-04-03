@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
+/* =========Header======== */
 #header{
     background-color: yellow;
     width: 100%;
@@ -17,7 +19,7 @@
 }
 
 .logo-part{
-    width: 26%;
+    width: 20%;
     float: left;
 }
 
@@ -38,12 +40,12 @@ div img{
 }
 
 .menu-part{
-    width: 43%;
+    width: 50%;
     float: left;
 }
 
 .menu-part ul{
-    padding: 16px 0;
+    padding: 20px 0;
     text-align: end;
 }
 
@@ -54,13 +56,14 @@ div img{
 }
 
 .menu-part a{
-    text-decoration: none;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 20px;
     color: darkblue;
     margin: 0 15px;
 }
 
+
+/* =========Hero======== */
 .title{
     background-image: url(../img/SyGtVk.webp);
     background-repeat: no-repeat;
@@ -73,7 +76,7 @@ div img{
     font-size: 150px;
     color: midnightblue;
     margin: 0 10px;
-    padding-top: 100px;
+    padding-top: 15px;
     text-shadow: 1px 1px 5px skyblue;
     text-transform: uppercase;
 }
@@ -86,6 +89,7 @@ div img{
     text-shadow: 1px 1px black;
 }
 
+/* =========Body======== */
 #body{
     background-color: orange;
     height: 1100px;
@@ -113,21 +117,21 @@ div img{
 
 .img{
     width: 90%;
-    margin-left: 100px;
+    margin: auto;
 }
 
 .img-one, .img-two, .img-three {
     display: inline-block;
-    width: 30%;
+    width: 31%;
     height: 600px;
-    margin: 0 1.5%;
+    margin: 0 1%;
     background-color: gray;
     padding: 10px;
 }
 
 .img img{
-    width: 492px;
-    height: 500px;
+    width: 100%;
+    height: 490px;
 }
 
 .img h2{
@@ -138,6 +142,7 @@ div img{
     text-transform: uppercase;
 }
 
+/* =========Second Body Part======== */
 #body-two{
     background-color: gray;
     height: 1100px;
@@ -174,6 +179,7 @@ div img{
     display: inline-block;
     width: 30%;
     height: 600px;
+    text-align: center;
     margin: 0 1.5%;
     background-color: orangered;
     padding: 10px;
@@ -182,15 +188,16 @@ div img{
 }
 
 .catagories img{
-    margin: 20px 0 0 125px;
-    width: 250px;
+    padding: 20px 70px;
+    width: 100%;
     height: 250px;
+    text-align: center;
 }
 
 .catagories h2{
     color: #fff;
     text-shadow: 1px 1px black;
-    font-size: 50px;
+    font-size: 37px;
     text-align: center;
     padding: 30px;
     text-transform: uppercase;
@@ -198,14 +205,14 @@ div img{
 
 .catagories p{
     color: #fff;
-    font-size: 26px;
+    font-size: 25px;
     text-align: center;
 }
 
 .catagories h1{
     border: none;
     border-radius: 10px;
-    margin: 25px auto;
+    margin: 40px auto;
     padding: 15px 0;
     width: 88%;
     text-align: center;
@@ -213,6 +220,7 @@ div img{
     background-color: black;
 }
 
+/* =========Third Body Part======== */
 #body-three{
     width: 100%;
     height: 2000px;
@@ -319,6 +327,7 @@ div img{
     height: 1000px;
 }
 
+/* =========Fourth Body Part======== */
 #body-four{
     background-color: gray;
     height: 1000px;
@@ -367,6 +376,7 @@ div img{
     font-size: 32px;
 }
 
+/* =========Fifth Body Part======== */
 #body-five{
     background-image: url(../img/Houses-Under-Snow-720x450.jpg);
     height: 1000px;
@@ -387,7 +397,7 @@ div img{
 }
 
 #body-five h1{
-    font-size: 120px;
+    font-size: 100px;
     text-align: center;
     padding: 100px 0 0 0;
     color: aquamarine;
@@ -396,10 +406,12 @@ div img{
     text-transform: uppercase;
 }
 
+/* =========Sixth Body Part======== */
 #body-six{
     background-color: aquamarine;
     height: 600px;
     width: 100%;
+    text-align: center;
 }
 
 #body-six h1{
@@ -422,7 +434,6 @@ div img{
     font-size: 30px;
     padding: 10px;
     margin-top: 40px;
-    margin-left: 500px;
     border: none;
     outline: none;
 }
@@ -436,9 +447,10 @@ div img{
     border: none;
 }
 
+/* =========Footer======== */
 #footer{
     width: 100%;
-    height: 280px;
+    height: 320px;
     background-color: black;
     color: #fff;
     padding: 1%;
@@ -465,16 +477,16 @@ div img{
 }
 
 .about, .services, .other{
-    width: 28%;
+    width: 25%;
     float: left;
-    margin: 20px 0 0 57px;
+    margin: 30px 0px 0px 57px;
 }
 
 .about h2, .services h2, .other h2{
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .about p, .services p, .other p{
-    font-size: 24px;
+    font-size: 20px;
 }
